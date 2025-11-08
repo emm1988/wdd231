@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing
-
-    </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is the home page for WDD231 course, in the page you will find information about me and the courses taken.">
+  <meta name="author" content="Your Name">
+  <title>Home | WDD231</title>
+  
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
 </head>
-<h1>Hello World</h1>
 <body>
-    
+  <header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="images/bug_insect_insert_ladybug_nature_icon.svg" alt="Site Logo">
+      <span class="site-name">Emmanuel Jove</span>
+    </div>
+    <button id="menu" aria-label="Menu">☰</button>
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html" class="active">Home</a>
+    <a href="#">Chamber Project</a>
+    <a href="#">Final Project</a>
+  </nav>
+</header>
+
+  <main>
+    <h1>Home</h1>
+        <div class="main-container">
+            <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Massa facilisis per purus si imperdiet curae amet. Et fames lorem mi
+                phasellus congue nascetur enim consectetur sociosqu natoque risus.
+                Odio vehicula libero nisl viverra augue commodo pretium vivamus at
+                duis magna.Massa facilisis per purus si imperdiet curae amet. Et fames lorem mi
+                phasellus congue nascetur enim consectetur sociosqu natoque risus.
+                Odio vehicula libero nisl viverra augue commodo pretium vivamus at
+                duis magna.Massa facilisis per purus si imperdiet curae amet. Et fames lorem mi
+                phasellus congue nascetur enim consectetur sociosqu natoque risus.
+                Odio vehicula libero nisl viverra augue commodo pretium vivamus at
+                duis magna.
+            </p>
+            </section>
+
+            <section id="photo">
+            <h2>Student Photo</h2>
+            <img src="images/profile.webp" alt="Student Photo">
+            </section>
+        </div>
+
+            <section id="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="buttons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div id="courseContainer"></div>
+            <p>The total credits for course listed above is <span id="totalCredits">0</span>.</p>
+            </section>
+        
+  </main>
+
+  <footer>
+    <div class="social">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="images/104493_linkedin_icon.svg" alt="LinkedIn logo" width="50" height="50">
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="images/394187_github_icon.svg" alt="GitHub logo" width="50" height="50">
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <img src="images/11244080_x_twitter_elon musk_twitter new logo_icon.svg" alt="Twitter logo" width="40" height="40">
+        </a>
+    </div>
+    <p>&copy; <span id="currentyear"></span> • Emmanuel Jove • La Paz, Bolivia</p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
 </html>
