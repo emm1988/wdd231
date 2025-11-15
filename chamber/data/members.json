@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Andean Foods LLC",
+    "address": "123 Main Avenue, La Paz",
+    "phone": "+591-2-1234567",
+    "website": "https://andeanfoods.example.com",
+    "image": "images/andean-foods.jpg",
+    "membershipLevel": 3,
+    "email": "info@andeanfoods.example.com",
+    "notes": "Organic products and exports."
+  },
+  {
+    "name": "North Tech Solutions",
+    "address": "Tech Street 45, El Alto",
+    "phone": "+591-2-7654321",
+    "website": "https://northtech.example.com",
+    "image": "images/north-tech.jpg",
+    "membershipLevel": 2,
+    "email": "sales@northtech.example.com",
+    "notes": "IT consulting and web development."
+  },
+  {
+    "name": "Global Consulting Group",
+    "address": "Central Plaza 9, Cochabamba",
+    "phone": "+591-4-5559999",
+    "website": "https://globalconsulting.example.com",
+    "image": "images/consulting-group.jpg",
+    "membershipLevel": 1,
+    "email": "contact@globalconsulting.example.com",
+    "notes": "Accounting and legal advisory."
+  },
+  {
+    "name": "Highland Coffee Roasters",
+    "address": "Plaza Sector 23, Oruro",
+    "phone": "+591-2-2223333",
+    "website": "https://highlandcoffee.example.com",
+    "image": "images/highland-coffee.jpg",
+    "membershipLevel": 3,
+    "email": "hello@highlandcoffee.example.com",
+    "notes": "Artisanal coffee roasting and export."
+  },
+  {
+    "name": "Rapid Print Co.",
+    "address": "Graphic Avenue 77, Santa Cruz",
+    "phone": "+591-3-7778888",
+    "website": "https://rapidprint.example.com",
+    "image": "images/rapid-print.jpg",
+    "membershipLevel": 2,
+    "email": "orders@rapidprint.example.com",
+    "notes": "Digital and offset printing."
+  },
+  {
+    "name": "EcoMovil Transport",
+    "address": "Route 5, Sucre",
+    "phone": "+591-4-1112222",
+    "website": "https://ecomovil.example.com",
+    "image": "images/ecomovil.jpg",
+    "membershipLevel": 1,
+    "email": "info@ecomovil.example.com",
+    "notes": "Eco-friendly cargo transportation."
+  },
+  {
+    "name": "Southern Handcrafts",
+    "address": "Museum Street 12, Tarija",
+    "phone": "+591-4-3334444",
+    "website": "https://southernhandcrafts.example.com",
+    "image": "images/southern-handcrafts.jpg",
+    "membershipLevel": 1,
+    "email": "sales@southernhandcrafts.example.com",
+    "notes": "Handcrafted products and exports."
+  }
+]
