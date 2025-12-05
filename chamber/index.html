@@ -28,8 +28,10 @@
 <body>
   <header class="site-header">
     <div class="wrap">
-      <img src="images/site-logo.svg" alt="Site Logo" width="70px">
-      <a href="directory.html" class="logo">La Paz Chamber of Commerce</a>
+      <div class="logo-group">
+        <img src="images/site-logo.svg" alt="Site Logo" width="70px">
+        <a href="directory.html" class="logo">La Paz Chamber of Commerce</a>
+      </div>
       <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="mainNav">☰</button>
 
       <nav id="mainNav" class="main-nav" role="navigation">
@@ -37,7 +39,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="contact.html">Discover</a></li>
+          <li><a href="discover.html">Discover</a></li>
         </ul>
       </nav>
     </div>
@@ -45,16 +47,22 @@
     
 
   <main>
-    <div class="hero" aria-hidden="La Paz Chamber of Commerce Hero Image">
-      <img src="images/panorama-city-la-paz-mountain-260nw-1084949312 (1).webp" alt="Hero placeholder image" />
-      <p>Welcome to La Paz Chamber of Commerce</p>
+    <div class="hero">
+      <img src="images/hero_large.webp" alt="La Paz">
+      <picture id="small-hero">
+        <img src="images/hero_small.webp" alt="La Paz small image" width="400" height="300">
+        </picture>
+      <div class="hero-text">
+        <p>Welcome to La Paz Chamber of Commerce</p>
+      </div>
     </div>
+
     <div class="promo-box">
     <h2>Don't lose this opportunity</h2>
     <p>
         Become a member of the La Paz Chamber of Commerce and get together with local businesses to grow and succeed.
     </p>
-    <a href="#" class="promo-btn">Join Us Today</a>
+    <a href="join.html" class="promo-btn">Join Us Today</a>
     </div>
     <section class="events">
   <div class="events__container">

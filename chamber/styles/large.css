@@ -1,0 +1,26 @@
+@media only screen and (min-width: 64rem) {
+  #allplaces {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    grid-template-areas: 
+      'title'
+      'image'
+      'description'
+      'address';
+  }
+
+  #allplaces div img {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 90px;
+  }
+  #allplaces div h2 {
+    padding-right: 70px;
+  }
+  #allplaces div img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+}

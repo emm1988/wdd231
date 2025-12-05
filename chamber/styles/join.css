@@ -36,12 +36,23 @@
       
   }
 
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-group img {
+  display: block;
+}
+
+
 /* Navigation */
 .main-nav ul { 
   display:flex; 
-  gap:1rem; 
+  gap:1rem;
   list-style:none;
-  margin:0;
+  margin:25px;
 }
 
 .main-nav a { 
@@ -56,6 +67,7 @@
 .main-nav a:hover { 
   background: rgba(255,255,255,0.08); 
 }
+
 
 
 /* Layout */
@@ -346,7 +358,7 @@ main {
 
 
 /* Thank-you page */
-/* Contenedor principal */
+/* Principal container */
 .thankyou-container {
   max-width: 600px;
   margin: 2rem auto;
@@ -409,7 +421,7 @@ main {
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.2px;
-  color: var(--text);
+  color:white;
 }
 
 /* Contact Column */
@@ -417,6 +429,7 @@ main {
   display: grid;
   gap: 6px;
   font-style: normal;
+  font-family: var(--heading-font-family);
   line-height: 1.45;
 }
 
@@ -424,6 +437,7 @@ main {
   color: white;
   text-decoration: none;
   font-weight: 500;
+  font-family: var(--heading-font-family);
 }
 
 .footer-link:hover,
@@ -472,6 +486,7 @@ main {
   margin: 0;
   display: grid;
   gap: 8px;
+  text-decoration: none;
 }
 
 .project-meta .meta-label {
@@ -480,6 +495,7 @@ main {
   border-radius: 8px;
   color: white;
   font-size: 0.95rem;
+  font-family: var(--heading-font-family);
 }
 
 
@@ -578,3 +594,9 @@ main {
     text-align: center;
   }
 }
+
+html, body {
+  height: 100%;
+}
+
+
