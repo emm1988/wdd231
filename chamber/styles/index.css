@@ -87,7 +87,7 @@ body {
 
 .hero-text {
   position: absolute;
-  bottom: 10%; /* Ajusta según lo que necesites */
+  bottom: 10%; 
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
