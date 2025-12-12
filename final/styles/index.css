@@ -113,10 +113,12 @@ nav#navMenu a.active {
 
 .hero-text {
   position: absolute;
-  bottom: 10%; 
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
+  padding: 0 1rem;
   white-space: nowrap;
 }
 
@@ -160,22 +162,28 @@ nav#navMenu a.active {
 
 @media (max-width: 768px) {
   .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     white-space: normal;
   }
-    
-  .hero-text p {
-    font-size: 1rem;
-    padding: 0.75rem 1.5rem;
+
+  .hero-text h1 {
+    font-size: 2.5rem;
   }
+
   #small-hero img {
     display: block;
     width: 100%;
     height: auto;
   }
+
   .hero img {
     display: none;
   }
 }
+
 
 /*Row Section*/
 
@@ -308,25 +316,34 @@ nav#navMenu a.active {
   background-color: var(--background-color);
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .business-cta {
-    width: 450px;
+    width: 350px;
     padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 6px;
+    text-align: center;
+  }
+
+  .business-cta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.3;
+  }
+
+  .business-cta p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    max-width: 280px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

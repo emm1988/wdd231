@@ -16,7 +16,7 @@ const closeSuccess = document.querySelector("#closeSuccess");
 // ✅ Variable to store selected tour name
 let selectedTourName = "";
 
-// Convert numeric review → stars
+// Convert numeric review to stars
 function getStars(num) {
   return "⭐".repeat(num);
 }
