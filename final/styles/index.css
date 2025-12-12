@@ -12,7 +12,12 @@ body {
   margin: 0;
   font-family: var(--font-family);
   background-color: var(--background-color);
+  padding: 0%;
 }
+html, body {
+  overflow-x: hidden;
+}
+
 
 /* Welcome message*/
 .message {
@@ -103,12 +108,14 @@ nav#navMenu a.active {
   position: relative;
   width: 100%;
   height: auto;
+  margin: 0px;
 }
 
 .hero img {
   width: 100%;
   height: auto;
   display: block;
+  margin: 0;
 }
 
 .hero-text {
@@ -120,13 +127,14 @@ nav#navMenu a.active {
   width: 100%;
   padding: 0 1rem;
   white-space: nowrap;
+  margin: 0;
 }
 
 .hero-text h1 {
   color: var(--primary-color);
   font-size: 3rem;
   font-family: var(--heading-font-family);
-  padding: 6.5rem 2.5rem;
+  padding: 6.5rem 1rem;
   margin: 0;
 }
 
@@ -285,7 +293,8 @@ nav#navMenu a.active {
 
 /*business-cta section*/
 .business-cta {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   text-align: center;
   background-color: var(--primary-color);
   padding: 2rem;
@@ -365,7 +374,7 @@ nav#navMenu a.active {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1.3fr 0.9fr 1.1fr; 
-  gap: 15rem;
+  gap: 4rem;
   align-items: start;
 }
 
